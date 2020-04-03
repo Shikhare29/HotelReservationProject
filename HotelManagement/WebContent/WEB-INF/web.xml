@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>HotelManagement</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.hotel.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>VerifyServlet</servlet-name>
+  <servlet-class>com.hotel.VerifyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>VerifyServlet</servlet-name>
+  <url-pattern>/VerifyServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>regHotelServlet</servlet-name>
+  <servlet-class>com.hotel.regHotelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>regHotelServlet</servlet-name>
+  <url-pattern>/regHotelServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>roomServlet</servlet-name>
+  <servlet-class>com.hotel.roomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>roomServlet</servlet-name>
+  <url-pattern>/roomServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>showData</servlet-name>
+  <servlet-class>com.hotel.showData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>showData</servlet-name>
+  <url-pattern>/showData</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>AdminServlet</servlet-name>
+  <servlet-class>com.hotel.AdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminServlet</servlet-name>
+  <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>BookingServlet</servlet-name>
+  <servlet-class>com.hotel.BookingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>BookingServlet</servlet-name>
+  <url-pattern>/BookingServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

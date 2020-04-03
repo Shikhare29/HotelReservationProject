@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/hregister.css">
+</head>
+<body>
+    <div>
+        <form action="regHotelServlet" method="post">
+            <div>
+                <h2>Register Hotel</h2>
+            </div>
+            <div>
+                <label for="hid">Enter Hotel Id:</label>
+                <br>
+                <input type="text" name="hid" id="hid">
+            </div>
+            <div>
+                <label for="city">Enter City:</label>
+                <br>
+                <input type="text" name="city" id="city">
+            </div>
+            <div>
+                <label for="name">Enter Hotel Name:</label>
+                <br>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="address">Enter Address:</label>
+                <br>
+                <textarea name="address" id="address" cols="22" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="address">Enter Description:</label>
+                <br>
+                <textarea name="address" id="address" cols="22" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="rate">Enter Price  /Night in Rs:</label>
+                <br>
+                <input type="number" name="rate" id="rate">
+            </div>
+            <div>
+                <label for="ph1">Enter Primary Phone No.:</label>
+                <br>
+                <input type="number" name="ph1" id="ph1">
+            </div>
+            <div>
+                <label for="ph2">Enter Secondary Phone No.:</label>
+                <br>
+                <input type="number" name="ph2" id="ph2">
+            </div>
+            <div>
+                <label for="rating">Enter Hotel Ratings:</label>
+                <br>
+                <input type="number" name="rating" id="rating">
+            </div>
+            <div>
+                <label for="email">Enter Email-Address:</label>
+                <br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
